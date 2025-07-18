@@ -30,6 +30,8 @@ extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
   }
 }
 
+expoAutolinking.exclude = ["expo-dev-client", "expo-dev-launcher", "expo-dev-menu", "expo-dev-menu-interface"]
+
 expoAutolinking.useExpoModules()
 
 rootProject.name = 'expo-modules-autolinking-excluded-packages-bug-mcve'
